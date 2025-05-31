@@ -1,0 +1,44 @@
+# Diretórios de build
+/target/
+/bin/
+
+/*.log
+*.log
+
+# Arquivos de configuração locais
+*.env
+*.properties
+*.yml
+
+# Diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de IDEs e editores
+.idea/
+.vscode/
+
+# Dependências do Maven
+/.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Dependências do Gradle
+.gradle/
+build/
+
+# Arquivos de cache do Maven/Gradle
+*.jar
+*.war
+*.ear
+*.class
+
+# Arquivos de cobertura de teste
+/coverage/
+/target/test-classes/
+/target/test-outputs/
+
+# Arquivos temporários de compilação
+*.swp
+*~.nib
